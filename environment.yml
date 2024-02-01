@@ -1,0 +1,12 @@
+name: vit_jax
+dependencies:
+  - python=3.11
+  - jaxlib=*=*cuda*
+  - jax
+  - cuda-nvcc
+  - flax
+  - optax
+  - datasets
+channels:
+  - conda-forge
+  - nvidia
